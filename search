@@ -1,0 +1,46 @@
+<Docttype!=html>
+<html>
+<head>
+<title>advanced search</title>
+<style>
+label{
+diaplay :inline-block;
+float:left;
+clear:left;
+width:250px;
+text-align:right;
+}
+input{
+display:inline-block;
+float:left;
+margin-bottom:20px;
+width:500px;
+size:25
+}
+.button{
+color:white;
+background-color:#1E90FF;
+margin-top:150px;
+margin-left:20px;
+width:150px;
+}
+div{
+margin-top:200px;
+}
+</style>
+</head>
+<body>
+<form  action="https://www.google.com/search">
+<label>All these words:</label> <input type="text" name="as_q" placeholder="All these words">
+<br>
+<label>The exact word or phrase:</label> <input type="text" name="as_epq" placeholder="The exact word or phrase">
+<br>
+<label>Any of these words:</label><input type="text" name="as_oq" placeholder="Any of these words">
+<br>
+<label>None of these words:</label><input type="text" name="as_eq" placeholder="None of these words">
+<br>
+<input  class="button" type="submit" name="Advanced Search" value="Advanced Search">
+<br>
+</form>
+</body>
+</html>
